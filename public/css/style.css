@@ -1,0 +1,205 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6,
+pre, form, fieldset, input, textarea, p, blockquote, th, td {
+	padding:0;
+	margin:0;}
+
+fieldset, img {border:0}
+
+ol, ul, li {list-style:none}
+
+:focus {outline:none}
+
+body,
+input,
+textarea,
+select {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #4c4c4c;
+}
+
+p {
+	font-size: 12px;
+	width: 150px;
+	display: inline-block;
+	margin-left: 18px;
+}
+h1 {
+	font-size: 32px;
+	font-weight: 300;
+	color: #4c4c4c;
+	text-align: center;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+
+html{
+	background-color: #ffffff;
+}
+
+.signup-box{
+	margin: 20px auto;
+	width: 343px;
+	height: 464px;
+	padding: 20px;
+	-webkit-border-radius: 8px/7px;
+	-moz-border-radius: 8px/7px;
+	border-radius: 8px/7px;
+	background-color: #ebebeb;
+	-webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+	-moz-box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+	box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+	border: solid 1px #cbc9c9;
+}
+.login-box
+{
+	margin: 20px auto;
+	width: 343px;
+	padding: 20px;
+	-webkit-border-radius: 8px/7px;
+	-moz-border-radius: 8px/7px;
+	border-radius: 8px/7px;
+	background-color: #ebebeb;
+	-webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+	-moz-box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+	box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+	border: solid 1px #cbc9c9;
+}
+
+
+.profile-pic{
+	vertical-align: middle;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;}
+
+/*.form {*/
+	/*padding: 20px;*/
+	/*width: 1150px;*/
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+	/*text-align: center;*/
+	/*!*background-color: #D0E4FF;*!*/
+	/*background: linear-gradient(-90deg,#E5D9FF, #DAF1FF);*/
+/*}*/
+.cards {
+	/* Add shadows to create the "card" effect */
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: 0.3s;
+	background-color: #D9D9D9;
+	padding: 10px;
+	margin: 20px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.cards:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+	padding: 2px 16px;
+}
+
+.cards1 {
+	/* Add shadows to create the "card" effect */
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: 0.3s;
+	background-color: white;
+	padding: 10px;
+	margin: 20px;
+}
+table{
+	border: 1px solid black;
+}
+.dashboard{
+	background-color: #E1F6FF;
+	font-family: Consolas;
+	/*font-family: Trebuchet MS;*/
+	color: #8D5858;
+	-webkit-appearance: none;
+}
+.dashboard input[type=date]{
+	padding: 8px;
+	border-radius:5px;
+	border: solid 1px #517B97;
+	font-family: Consolas;
+	background-color: #F7FFFC ;
+	cursor: pointer;
+
+
+}
+
+.select-op {
+	padding: 9px;
+	border: solid 1px #517B97;
+	border-radius: 5px;
+	width: 200px;
+	outline: 0;
+	font-family: Consolas;
+	background-color: #F7FFFC ;
+	cursor: pointer;
+
+	/*background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #CAD9E3), to(#FFFFFF));*/
+	/*background: -moz-linear-gradient(top, #FFFFFF, #CAD9E3 1px, #FFFFFF 25px);*/
+	box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+}
+
+.dashboard textarea{
+	border-radius:5px;
+	border: solid 1px #517B97;
+	font-family: Consolas;
+	padding: 5px;
+	background-color: #F7FFFC ;
+}
+
+.dashboard .button{
+background-color: #FFC8C8;
+	padding: 5px;
+	transition: transform .2s;
+	font-family: Consolas;
+
+	border-radius: 5px;
+
+}
+.dashboard .button:hover{
+	background-color: #FF7C7C;
+	transform: scale(1.05);
+	cursor: pointer;
+}
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile + label {
+	font-size: 20px;
+	color: #724D4D;
+	background-color: #DDFAFF;
+	display: inline-block;
+	padding: 5px;
+	cursor: pointer;
+	border-radius:5px;
+	border: solid 1px #517B97;
+	transition: transform .2s;
+	font-family: Consolas;
+
+
+
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+	background-color: #90EFFF;
+	transform: scale(1.05);
+
+}
+
+online th, td {
+	padding: 15px;
+	text-align: left;
+}
